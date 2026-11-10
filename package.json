@@ -1,0 +1,16 @@
+{
+  "name": "neon-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A neon cyberpunk note-to-knowledge workspace.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mammoth": "^1.8.0"
+  }
+}
